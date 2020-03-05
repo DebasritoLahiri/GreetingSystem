@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".picturechoose">
+
+    <ImageButton
+        android:id="@+id/opt1"
+        android:layout_width="187dp"
+        android:layout_height="243dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="opt1"
+        app:srcCompat="@drawable/season_greetings_winter" />
+
+    <ImageButton
+        android:id="@+id/opt2"
+        android:layout_width="187dp"
+        android:layout_height="242dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="opt2"
+        app:srcCompat="@drawable/season_greetings" />
+
+    <ImageButton
+        android:id="@+id/opt3"
+        android:layout_width="187dp"
+        android:layout_height="246dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="opt3"
+        app:srcCompat="@drawable/birthday" />
+
+    <ImageButton
+        android:id="@+id/opt4"
+        android:layout_width="187dp"
+        android:layout_height="247dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="opt4"
+        app:srcCompat="@drawable/anniversary" />
+</RelativeLayout>

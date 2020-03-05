@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalviewc">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="255dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="opt3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/birthday"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/finalmessage"
+        android:layout_width="174dp"
+        android:layout_height="252dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="152dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="Send" />
+
+</RelativeLayout>
